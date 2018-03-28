@@ -6,4 +6,26 @@
     <string name="login">LOGIN</string>
     <string name="log">LOGIN</string>
     <string name="logins">Login</string>
+    <string name="click_to_upload">Click to upload</string>
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Hello Friends!</string>
+    <string name="slide_1_desc">The easiest way to learn and earn!</string>
+
+    <string name="slide_2_title">Flashcards</string>
+    <string name="slide_2_desc">To recapitulate the facts faster!</string>
+
+    <string name="slide_3_title">Multiple language support and translating editable text files</string>
+    <string name="slide_3_desc">Language should not be a barrier!</string>
+
+    <string name="slide_4_title">Image Recognition</string>
+    <string name="slide_4_desc">Learning was never more interactive!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
 </resources>

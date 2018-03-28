@@ -36,32 +36,47 @@
             android:layout_marginTop="5sp"
             android:text="Email"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/grey"
+            android:textColorHint="@color/grey"/>
         <EditText
             android:drawablePadding="20sp"
-            android:drawableRight="@drawable/ic_person_outline_black_24dp"
+            android:drawableRight="@drawable/mail"
             android:hint="@string/type_your_email"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/grey"
+            android:id="@+id/email"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/grey"/>
         <TextView
             android:layout_marginTop="5sp"
             android:text="@string/password"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/grey"
+            android:textColorHint="@color/grey"/>
+
         <EditText
             android:drawablePadding="20sp"
             android:drawableRight="@drawable/ic_lock_black_24dp"
             android:hint="@string/pass"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/grey"
+            android:id="@+id/password"
+            android:textColorHint="@color/grey"
+            android:inputType="numberPassword"/>
         <Button
             android:textColor="#FFF"
             android:background="@drawable/rec_gradient"
             android:layout_marginTop="20sp"
             android:textAllCaps="false"
-            android:text="Login"
+            android:text="@string/login"
+            android:id="@+id/login"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            />
        </LinearLayout>
 
 
