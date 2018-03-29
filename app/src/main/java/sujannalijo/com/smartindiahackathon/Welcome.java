@@ -178,6 +178,7 @@ public class Welcome extends AppCompatActivity {
         public Object instantiateItem(ViewGroup container, int position) {
             layoutInflater = (LayoutInflater) getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 
+            //hello
             View view = layoutInflater.inflate(layouts[position], container, false);
             container.addView(view);
 
