@@ -14,7 +14,7 @@
         android:layout_alignParentEnd="true"
         android:paddingLeft="10sp"
         android:paddingRight="10sp"
-        android:background="@drawable/addimage"/>
+        />
 
     <TextView
         android:layout_width="200sp"
